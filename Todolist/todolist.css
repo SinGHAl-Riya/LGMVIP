@@ -1,0 +1,119 @@
+*{
+    padding:0;
+    margin:0;
+    background: linear-gradient(to right,skyblue,rgb(246, 214, 219));
+}
+#title{
+    color:white;
+    margin:4px;
+    padding:4px;
+    width:100%;
+    height: 100%;
+    font-family: "cursive";
+    font-size: 70px;
+    text-decoration: solid;
+    text-align: center;
+    text-shadow: 2px 2px rgb(71, 70, 70);
+    background: linear-gradient(to right, orange, green); 
+}
+#title:hover{
+    font-size:80px;
+    text-transform: uppercase;
+}
+#taskform{
+    display:flex;
+    justify-content: center;
+    font-weight:200; 
+    padding: 10px;
+}
+::placeholder{
+    color:black;
+}
+#taskinput{
+    color:black;
+    font-size:2rem;
+    height:3rem;
+    width:50%;
+    display: block;
+}
+#tasksubmit{
+    color:black;
+    font-size:2rem;
+    height:3rem;
+    width:15%;
+    background: white;
+    border-radius: 6px;
+
+}
+#tasksubmit:hover{
+    cursor:pointer;
+    box-shadow: 2px 2px 1px rgb(53, 51, 51);
+    transition: all 0.4s;
+    text-transform: uppercase;
+}
+#headingtask{
+    color:white;
+    margin:4px;
+    padding:15px;
+    width:100%;
+    height: 100%;
+    font-family: "cursive";
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(63, 62, 62);
+
+}
+#tasks .task{
+    display:flex;
+    justify-content: center;
+    padding: 4px;
+}
+#task .task .content{
+    flex: 1 1 0%;
+ }
+#tasks .task .content .text{
+    color:black;
+    font-size: 30px;
+    width: 100%;
+    display:block;
+    transition: 0.4s;
+    
+}
+#tasks .task .content .text:not(:read-only){
+    color: rgb(18, 8, 37);
+}
+#tasks .task .actions{
+    display:flex;
+    margin: 0 -0.5rem;
+}
+.edit{
+    color:black;
+    font-size:2rem;
+    height:2.45rem;
+    width:100%;
+    background: white;
+    border-radius: 6px;
+
+}
+.delete{
+    color:black;
+    font-size:2rem;
+    height:2.45rem;
+    width:100%;
+    background: white;
+    border-radius: 6px;
+}
+.edit:hover{
+    cursor:pointer;
+    box-shadow: 2px 2px 1px rgb(53, 51, 51);
+    transition: all 0.4s;
+    text-transform: uppercase;
+
+}
+.delete:hover{
+    cursor:pointer;
+    box-shadow: 2px 2px 1px rgb(53, 51, 51);
+    transition: all 0.4s;
+    text-transform: uppercase;
+
+}
