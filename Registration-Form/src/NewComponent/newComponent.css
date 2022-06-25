@@ -1,0 +1,78 @@
+*{
+    background: radial-gradient(circle,rgb(214, 178, 184),rgb(127, 178, 222));
+    margin:0;
+    padding:0;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  background: white;
+}
+.container > form {
+    width: 90%;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    height: 80vh;
+  }
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-family: "cursive";
+    font-weight:bold;
+    text-decoration: solid;
+    background: white;
+    
+}
+.form{
+  padding:20px;
+    font-size: 25px;
+    font-family: "cursive";
+    font-weight:bold;
+    text-decoration: solid;
+    background: white;
+}
+
+.field{
+  
+    font-family: "cursive";
+    font-weight:bold;
+    text-decoration: solid;
+    background: white;
+}
+.label{
+  font-family: "cursive";
+    font-weight:bold;
+    text-decoration: solid;
+    background: white;
+}
+.input{
+    font-family: "cursive";
+    font-weight:bold;
+    text-decoration: solid;
+    background: white;
+
+}
+.buttonsubmit{
+  font-size:20px;
+  font-family: "cursive";
+  font-weight:bold;
+  text-decoration: solid;
+  background: white;
+  display:block;
+  margin-left: 165px;;
+  border-color: black;
+  border-radius: 0.4rem;
+  cursor:pointer;
+}
+.buttonsubmit:hover{
+  transition: all 1s;
+  box-shadow: 2px 2px rgb(65, 64, 64);
+}
